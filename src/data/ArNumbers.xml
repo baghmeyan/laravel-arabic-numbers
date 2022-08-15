@@ -13,17 +13,17 @@
 
         <number value="2" gender="male" grammar="1">إثنان</number>
         <number value="2" gender="male" grammar="2">إثنين</number>
-        <number value="2" gender="female" grammar="1">إثنتان</number>
-        <number value="2" gender="female" grammar="2">إثنتين</number>
+        <number value="2" gender="female" grammar="1">إثنان</number>
+        <number value="2" gender="female" grammar="2">إثنين</number>
 
-        <number value="3" gender="male">ثلاث</number>
-        <number value="4" gender="male">أربع</number>
-        <number value="5" gender="male">خمس</number>
-        <number value="6" gender="male">ست</number>
-        <number value="7" gender="male">سبع</number>
-        <number value="8" gender="male">ثماني</number>
-        <number value="9" gender="male">تسع</number>
-        <number value="10" gender="male">عشر</number>
+        <number value="3" gender="male">ثلاثة</number>
+        <number value="4" gender="male">أربعة</number>
+        <number value="5" gender="male">خمسة</number>
+        <number value="6" gender="male">ستة</number>
+        <number value="7" gender="male">سبعة</number>
+        <number value="8" gender="male">ثمانية</number>
+        <number value="9" gender="male">تسعة</number>
+        <number value="10" gender="male">عشرة</number>
 
         <number value="3" gender="female">ثلاثة</number>
         <number value="4" gender="female">أربعة</number>
@@ -39,8 +39,8 @@
 
         <number value="12" gender="male" grammar="1">إثنا عشر</number>
         <number value="12" gender="male" grammar="2">إثني عشر</number>
-        <number value="12" gender="female" grammar="1">إثنتا عشرة</number>
-        <number value="12" gender="female" grammar="2">إثنتي عشرة</number>
+        <number value="12" gender="female" grammar="1">إثنا عشر</number>
+        <number value="12" gender="female" grammar="2">إثني عشر</number>
 
         <number value="13" gender="male">ثلاث عشرة</number>
         <number value="14" gender="male">أربع عشرة</number>
@@ -74,17 +74,17 @@
         <number value="80" grammar="2">ثمانين</number>
         <number value="90" grammar="2">تسعين</number>
 
-        <number value="200" grammar="1">مئتان</number>
-        <number value="200" grammar="2">مئتين</number>
+        <number value="200" grammar="1">مائتان</number>
+        <number value="200" grammar="2">مائتين</number>
 
-        <number value="100">مئة</number>
-        <number value="300">ثلاثمئة</number>
-        <number value="400">أربعمئة</number>
-        <number value="500">خمسمئة</number>
-        <number value="600">ستمئة</number>
-        <number value="700">سبعمئة</number>
-        <number value="800">ثمانمئة</number>
-        <number value="900">تسعمئة</number>
+        <number value="100">مائة</number>
+        <number value="300">ثلاثمائة</number>
+        <number value="400">أربعمائة</number>
+        <number value="500">خمسمائة</number>
+        <number value="600">ستمائة</number>
+        <number value="700">سبعمائة</number>
+        <number value="800">ثمانمائة</number>
+        <number value="900">تسعمائة</number>
     </individual>
 
     <!--

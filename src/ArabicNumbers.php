@@ -15,9 +15,11 @@ class ArabicNumbers
     private $_ordering = [];
     private $_currency = [];
     private $_spell = [];
+    private $_step = [];
     private $_feminine = 1;
     private $_format = 1;
     private $_order = 1;
+    private $_step_format = false;
 
     /**
      * Loads initialize 🏁 values for the ArabicNumbers Object 🥳 { تجهيز القيم المبدئية للدوال }
@@ -81,6 +83,10 @@ class ArabicNumbers
             $this->_spell[$str] = (integer)$num['value'];
         }
 
+        foreach ($xml->xpath("//step/number[@gender='female']") as $num) {
+            $this->_step["{$num['value']}"][2] = (string)$num;
+        }
+
         $xml = simplexml_load_file(__DIR__ . '/data/arab_countries.xml');
 
         foreach ($xml->xpath("//currency") as $info) {
@@ -111,6 +117,12 @@ class ArabicNumbers
     public function setFeminine(int $value)
     {
         $this->_feminine = $value == 1 || $value == 2 ? $value : $this->_feminine;
+        return $this;
+    }
+
+    public function usesStepFormat(bool $f)
+    {
+        $this->_step_format = $f;
         return $this;
     }
 
@@ -557,6 +569,9 @@ class ArabicNumbers
                         'ال' . $this->_individual[$tens][$this->_format]
                     );
                 }
+            } else if ($this->_step_format && $number <= 10){
+                $item = $this->_step[$number][$this->_feminine];
+                array_push($items, $item);
             } else {
                 if ($number == 2 || $number == 12) {
                     array_push(

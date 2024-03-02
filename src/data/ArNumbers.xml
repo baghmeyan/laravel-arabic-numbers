@@ -152,4 +152,18 @@
         <number value="9" gender="female">تاسعة</number>
         <number value="10" gender="female">عاشرة</number>
     </order>
+
+    <step>
+        <number value="1" gender="female">الأولى</number>
+        <number value="2" gender="female">الثانية</number>
+        <number value="3" gender="female">الثالثة</number>
+        <number value="4" gender="female">الرابعة</number>
+        <number value="5" gender="female">الخامسة</number>
+        <number value="6" gender="female">السادسة</number>
+        <number value="7" gender="female">السابعة</number>
+        <number value="8" gender="female">الثامنة</number>
+        <number value="9" gender="female">التاسعة</number>
+        <number value="10" gender="female">العاشرة</number>
+
+    </step>
 </data>
